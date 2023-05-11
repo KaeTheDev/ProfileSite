@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Site</title>
+</head>
+
+<body class="app">
+
+    <header class="header">
+        <ul class="dp-links">
+            <p class="dp-title">Profile</p>
+            <li class="dp-click"><a href="#">Home</a></li>
+            <li class="dp-click"><a href="#">My Profile</a></li>
+            <li class="dp-click"><a href="#">Find Connections</a></li>
+            <button class="dp-signout">Sign Out</button>
+        </ul>
+    </header>
+
+    <div class="container">
+        <main>
+            <div class="profile-bio">
+                <div class="profile-bio__banner"><img src="/resources/user-circle.png" class="profile-bio__avatar" alt=""></div>
+                
+                <p class="profile-bio__name">Jane Doe</p>
+                <p><img src="resources/map-marker.png" class="profile-bio__location" alt="">
+                    Seattle</p>
+                <p class="profile-bio__bio">Developer | Engineer | Problem Solver <br> Master of shadows and the
+                    Internet! </p>
+                <a href="#"><img src="resources/gear.png"  class= "profile-bio__edit"  alt=""> edit profile</a>
+            </div>
+
+            <div class="profile-education">
+                <p class="profile-education__header">Education</p>
+                <p class="profile-education__title">Coding Dojo - Full Stack Academy</p>
+                <p class="profile-education__date">Dec 2019 - Mar 2020</p>
+                <p class="profile-education__description">Triple Black Belt in Python, MERN, and C#</p>
+
+                <br>
+                <p class="profile-education__title">Coding Dojo - Full Stack Academy</p>
+                <p class="profile-education__date">Dec 2019 - Mar 2020</p>
+                <p class="profile-education__description">Triple Black Belt in Python, MERN, and C#</p>
+            </div>
+        </main>
+
+        <div class="sidebar">
+            <div class="profile-connection-request">
+                <p class="profile-connection-request__header">2 Connection Requests</p>
+                <div class="profile-connection-request__object">
+                    <div class="profile-connection-request__user">
+                        <img src="/resources/user-circle.png"  alt=""
+                            class="profile-connection-request__img">
+                        <p class="profile-connection-request__name">Todd E</p>
+                        <div class="profile-connection-request__approve">
+                            <p class="profile-connection-request__accept">&#x2713;</p>
+                            <p class="profile-connection-request__reject">&#215;</p>
+                        </div>
+                    </div>               
+                </div>
+
+
+                <div class="profile-connection-request__object">
+                    <div class="profile-connection-request__user">
+                        <img src="/resources/user-circle.png"  alt=""
+                            class="profile-connection-request__img">
+                        <p class="profile-connection-request__name">Phil K</p>
+                        <div class="profile-connection-request__approve">
+                            <p class="profile-connection-request__accept">&#x2713;</p>
+                            <p class="profile-connection-request__reject">&#215;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-connections">
+                <p class="profile-connections__header">500+ Your Connections</p>
+                <div class="profile-connections__user">
+                    <img src="/resources/user-circle.png" alt=""  class="profile-connections__img">
+                    <p class="profile-connections__name">Adrien D</p>
+                </div>
+
+                <div class="profile-connections__user">
+                    <img src="/resources/user-circle.png" alt=""  class="profile-connections__img">
+                    <p class="profile-connections__name">Anne J</p>
+                </div>
+
+                <div class="profile-connections__user">
+                    <img src="/resources/user-circle.png" alt=""  class="profile-connections__img">
+                    <p class="profile-connections__name">Alayne T</p>
+                </div>
+                <div class="profile-connections__user">
+                    <img src="/resources/user-circle.png" alt=""  class="profile-connections__img">
+                    <p class="profile-connections__name">Arry Y</p>
+                </div>
+                <hr>
+                <div class="view-more-link"><a href="#">View More</a></div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
