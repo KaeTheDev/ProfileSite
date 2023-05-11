@@ -1,7 +1,7 @@
 /* CSS RESETS */
 * {
     margin: 0;
-    
+    padding: 0;
 }
 
 
@@ -16,15 +16,17 @@ width: 100vw;
 /* CSS - NAVBAR/HEADER STYLES */
 
 .header {
+    display: flex;
     background-color: black;
     color: #FFF;
     padding: 25px;
+    
 }
 
 .dp-title {
     margin-right: 20px;
     font-size: xx-large;
-    
+    margin-left: 400px;
 }
 
 .dp-links {
@@ -68,8 +70,12 @@ width: 100vw;
 
 .container {
     display: flex;
+    justify-content: center;
     padding: 90px;
     gap: 15px;
+    margin: 0 auto;
+    height: 700px;
+   
 }
 
 /* PROFILE SECTION */
@@ -77,12 +83,17 @@ width: 100vw;
 .profile-bio {
     border: 4px solid gray;
     width: 375px;
-    padding: 20px;    
+        
 }
 
 .profile-bio__banner{
-    padding: 10px;
+    height: 100px;
+    width: 375px;
     background-color: aqua;
+}
+
+.profile-info{
+    padding: 20px;
 }
 
 .profile-bio__avatar{
