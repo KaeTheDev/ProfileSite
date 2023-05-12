@@ -87,6 +87,7 @@ width: 100vw;
 .profile-bio__banner{
     height: 100px;
     width: 375px;
+    
     background-color: aqua;
 }
 
@@ -98,6 +99,9 @@ width: 100vw;
     margin-bottom: 8px;
     width: 75px;
     height: 75px;
+    position: relative;
+    top:45px;
+    left: 10px;
 }
 
 .profile-bio__name{
