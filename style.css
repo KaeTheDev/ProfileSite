@@ -153,6 +153,10 @@ padding: 15px;
 
 /* CONNECTION REQUEST SECTION */
 
+img{
+    border-radius: 50%;
+}
+
 .profile-connection-request__header{
 text-align: center;
 background-color: rgb(82, 79, 79);
@@ -247,4 +251,6 @@ margin-bottom: 5px;
     width: 30px;
     height: 30px;
 }
+
+
 
